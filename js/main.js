@@ -9,7 +9,7 @@ menuToggle.click(function(){
 
 
     let swiper = new Swiper('.swiper-container', {
-      spaceBetween: 10,
+      spaceBetween: 20,
       slidesPerView: 2,
       clickable: true,
       loop: true,
@@ -32,7 +32,7 @@ menuToggle.click(function(){
         },
         1199: {
           slidesPerView: 4,
-          spaceBetween: 50,
+          spaceBetween: 20,
         },
       }
     });
